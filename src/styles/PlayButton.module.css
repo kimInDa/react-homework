@@ -1,0 +1,14 @@
+.button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-color: transparent;
+}
+
+.button.play{
+  background-image: url(/src/assets/button-play.svg);
+}
+
+.button.pause{
+  background-image: url(/src/assets/button-pause.svg);
+}
