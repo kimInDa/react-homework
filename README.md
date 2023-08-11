@@ -1,6 +1,5 @@
 [ 멋쟁이 사자처럼🦁 프론트엔드 스쿨 6기 | React 프로그래밍 과제  ]
 # 목차
-- [목차](#목차)
 - [actomic 컴포넌트](#actomic-컴포넌트)
   - [Figma 설계(disign)](#figma-설계disign)
     - [🔗 Figma 바로가기 → 링크](#-figma-바로가기--링크)
