@@ -1,4 +1,15 @@
 [ 멋쟁이 사자처럼🦁 프론트엔드 스쿨 6기 | React 프로그래밍 과제  ]
+# 목차
+- [목차](#목차)
+- [actomic 컴포넌트](#actomic-컴포넌트)
+  - [Figma 설계(disign)](#figma-설계disign)
+    - [🔗 Figma 바로가기 → 링크](#-figma-바로가기--링크)
+  - [코드 리뷰](#코드-리뷰)
+    - [Components 구조](#components-구조)
+    - [1. ReactDOM](#1-reactdom)
+    - [2. Controller](#2-controller)
+    - [3. PlayButton](#3-playbutton)
+
 
 # actomic 컴포넌트
 - Figma를 사용해 **재생 버튼**과 **일시정지 버튼**을 설계(disign) 하였습니다. 
@@ -26,7 +37,7 @@
 
 ### 1. ReactDOM 
 
-**main.jsx**
+[**main.jsx**](https://github.com/kimInDa/react-homework/blob/mission01-atomic/src/main.jsx)
 
 ```jsx
 import React from 'react';
@@ -43,7 +54,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 - ReactDOM의 ``render`` 메서드로 컴포넌트를 렌더링 합니다.
 
 ### 2. Controller
-**Controller.jsx**
+[**Controller.jsx**](https://github.com/kimInDa/react-homework/blob/mission01-atomic/src/components/Controller.jsx)
 ```jsx
 import styles from '../styles/Controller.module.css'
 import PlayButton from './PlayButton'
@@ -60,7 +71,7 @@ function Controller() {
 
 export default Controller
 ```
-**Controller.module.css**
+[**Controller.module.css**](https://github.com/kimInDa/react-homework/blob/mission01-atomic/src/styles/Controller.module.css)
 ```css
 .container {
   width: 250px;
@@ -76,7 +87,7 @@ export default Controller
 - ``Controller`` 컴포넌트에서 자식 요소인 **재생 버튼**과 **일시정지 버튼**에게 ``props``를 전달합니다.
 
 ### 3. PlayButton
-**PlayButton.jsx**
+[**PlayButton.jsx**](https://github.com/kimInDa/react-homework/blob/mission01-atomic/src/components/PlayButton.jsx)
 ```jsx
 import styles from '@/styles/PlayButton.module.css'
 
@@ -93,7 +104,7 @@ function PlayButton({label, buttonType}) {
 
 export default PlayButton
 ```
-**PlayButton.module.css**
+[**PlayButton.module.css**](https://github.com/kimInDa/react-homework/blob/mission01-atomic/src/styles/PlayButton.module.css)
 ```jsx
 .button {
   width: 100px;
