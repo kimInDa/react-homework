@@ -1,7 +1,7 @@
 [ 멋쟁이 사자처럼🦁 프론트엔드 스쿨 6기 | React 프로그래밍 과제  ]
 
 # actomic 컴포넌트
-- Figma를 사용해 재생 버튼과 일시정지 버튼을 설계(disign) 하였습니다. 
+- Figma를 사용해 **재생 버튼**과 **일시정지 버튼**을 설계(disign) 하였습니다. 
 - 설계한 컴포넌트를 리액트 컴포넌트로 구현하였습니다.
 
   
@@ -24,7 +24,7 @@
 ### Components 구조
 ![2023-08-11_20-15-59](https://github.com/kimInDa/react-homework/assets/105577805/8dbd53fc-01da-495c-8209-f634cdb8f55a)
 
-### ReactDOM 
+### 1. ReactDOM 
 
 **main.jsx**
 
@@ -42,7 +42,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 - ReactDOM의 ``createRoot`` 메서드로 컴포넌트를 렌더링할 위치의 HTML 요소를 잡아줍니다.
 - ReactDOM의 ``render`` 메서드로 컴포넌트를 렌더링 합니다.
 
-### Controller
+### 2. Controller
 **Controller.jsx**
 ```jsx
 import styles from '../styles/Controller.module.css'
@@ -73,9 +73,9 @@ export default Controller
 ```
 - 버튼의 부모요소인 ``Controller`` 컴포넌트를 ``article`` 태그로 생성합니다.
 - ``Controller`` 컴포넌트의 CSS는 **CSS module** 방식으로 구현합니다.
-- ``Controller`` 컴포넌트에서 자식 요소인 재생 버튼과 일시정지 버튼에게 ``props``를 전달합니다.
+- ``Controller`` 컴포넌트에서 자식 요소인 **재생 버튼**과 **일시정지 버튼**에게 ``props``를 전달합니다.
 
-### PlayButton
+### 3. PlayButton
 **PlayButton.jsx**
 ```jsx
 import styles from '@/styles/PlayButton.module.css'
