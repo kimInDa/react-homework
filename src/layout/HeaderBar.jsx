@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 function HeaderBar() {
   return (
-    <header className="flex justify-between px-8 py-2">
+    <header className="flex justify-between px-8 py-2 mb-5 ">
       <Heading />
       <Nav />
     </header>

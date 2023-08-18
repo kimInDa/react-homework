@@ -4,7 +4,7 @@ function FooterBar() {
   const [currentYear] = useState(() => new Date().getFullYear());
 
   return (
-    <footer className="p-6 text-center">
+    <footer className="p-6 text-center mt-20 ">
       <small className="text-xs font-light">
         Copyright <b>{currentYear}</b> &copy; 모든 저작권은
         <strong> 월트 디즈니 픽처스(Walt Disney Pictures)</strong>와{' '}
