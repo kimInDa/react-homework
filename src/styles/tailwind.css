@@ -8,6 +8,7 @@ body {
   font:
     1rem/1.5 'SUIT Variable',
     sans-serif;
+  color: white;
 
   /* CSS 중첩 규칙(Nesting Rules) */
   & * {

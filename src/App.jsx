@@ -3,7 +3,7 @@ import router from './routes';
 
 function App() {
   return (
-    <div className="App bg-[#03010C] text-white h-screen">
+    <div className="App text-white bg-[#03010C]">
       <RouterProvider router={router} />
     </div>
   );
