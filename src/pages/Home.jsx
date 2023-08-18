@@ -1,4 +1,7 @@
+import useDocumentTitle from '@/hooks/useDocumentTitle';
+
 function Home() {
+  useDocumentTitle('홈(Home) | 영화 엘리멘탈(Elemental) 소개 사이트');
   return (
     <div>
       Home
