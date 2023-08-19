@@ -5,7 +5,7 @@ function Heading() {
   return (
     <h1>
       <Link to="/">
-        <Logo width="w-[180px]" />
+        <Logo style="w-[180px]" />
       </Link>
     </h1>
   );

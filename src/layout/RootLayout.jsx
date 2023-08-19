@@ -1,13 +1,13 @@
-import { Outlet } from 'react-router-dom';
 import HeaderBar from './HeaderBar';
 import FooterBar from './FooterBar';
+import Section from '../components/Section';
 
 function RootLayout() {
   return (
     <>
       <HeaderBar />
       <main>
-        <Outlet />
+        <Section />
       </main>
       <FooterBar />
     </>

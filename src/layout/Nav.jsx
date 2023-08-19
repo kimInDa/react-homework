@@ -9,8 +9,8 @@ function Nav() {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? `text-red-400 underline underline-offset-1`
-                : `hover:text-red-400 hover:underline underline-offset-1`
+                ? `text-elementalRed underline underline-offset-1`
+                : `hover:text-elementalRed hover:underline underline-offset-1`
             }
           >
             홈
@@ -18,11 +18,11 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            to="/introduce"
+            to="/summary"
             className={({ isActive }) =>
               isActive
-                ? `text-purple-400 underline underline-offset-1`
-                : `hover:text-purple-400 hover:underline underline-offset-1`
+                ? `text-elementalPurple underline underline-offset-1`
+                : `hover:text-elementalPurple hover:underline underline-offset-1`
             }
           >
             줄거리
@@ -33,8 +33,8 @@ function Nav() {
             to="/charactor"
             className={({ isActive }) =>
               isActive
-                ? `text-sky-400 underline underline-offset-1`
-                : `hover:text-sky-400 hover:underline underline-offset-1`
+                ? `text-elementalBlue underline underline-offset-1`
+                : `hover:text-elementalBlue hover:underline underline-offset-1`
             }
           >
             캐릭터 소개

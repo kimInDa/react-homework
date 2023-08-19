@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import RootLayout from './layout/RootLayout';
 import Home from './pages/Home';
-import Introduce from './pages/Introduce';
+import Summary from './pages/Summary';
 import Charactor from './pages/Charactor';
 
 const router = createBrowserRouter([
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
-      { path: 'introduce', element: <Introduce /> },
+      { path: 'summary', element: <Summary /> },
       { path: 'charactor', element: <Charactor /> },
     ],
   },
