@@ -59,9 +59,9 @@ function CharacterInfo({info, status}) {
 
 
   return (
-    <dl className='grid gap-7 grid-rows-[0.5fr_auto_1fr] grid-cols-2 max-w-[1280px]'>
+    <dl className='grid gap-7 grid-rows-[0.5fr_auto_1fr] grid-cols-2 max-w-[1280px] ml-8'>
       <dt className={`row-span-1 col-start-1 col-end-2 self-end text-2xl font-bold ${fadeInLeftFirst} ${getFontColor(name)}`}>{name}({nameEn})</dt>
-      <dd className={`row-span-full col-start-2 col-end-3 justify-self-center animate-fadeIn max-h-1920px`}><img src={`${getInfoImageURL(characterData, 'characterImage')}`} alt={name} className="max-h-[30rem]"/></dd>
+      <dd className={`row-span-full col-start-2 col-end-3 justify-self-center animate-fadeIn max-h-1920px`}><img src={`${getInfoImageURL(characterData, 'characterImage')}`} alt={name} className="max-h-[40rem]"/></dd>
       <dd className={`row-span-1 col-start-1 col-end-2 text-lg italic animate-fadeInLeftFirst`}>&#34;{slogan}&#34;</dd>
       <dd className={`row-span-1 col-start-1 col-end-2 animate-fadeInLeftSecond`}>{character}</dd>
     </dl>

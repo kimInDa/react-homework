@@ -6,9 +6,9 @@ function Summary() {
   return (
     <>
       <h2 className="sr-only">줄거리</h2>
-      <dl className="grid gap-7 grid-rows-[0.5fr_auto_1fr] grid-cols-2 px-10">
+      <dl className="grid gap-7 grid-rows-[0.5fr_auto_1fr] grid-cols-2 px-10 h-screen">
         <dt className="col-span-1 row-span-1 text-3xl self-end justify-self-start animate-fadeInLeftFirst">
-          줄거리
+        <span className='text-elementalBlue'>줄</span><span className='text-elementalRed'>거</span><span className='text-elementalGreen'>리</span>
         </dt>
         <dd className="col-span-1 row-span-3 self-center flex justify-center animate-fadeInRight">
           <img

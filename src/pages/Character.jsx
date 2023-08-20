@@ -3,6 +3,7 @@ import useFetchData from '../hooks/useFetchData';
 import CharacterList from './CharacterList';
 import { useState, useEffect } from 'react';
 import CharacterInfo from './CharacterInfo';
+import Spinner from '../components/Spinner';
 
 
 const INFO_ENDPOINT = `http://127.0.0.1:8090/api/collections/Elemental/records`;
@@ -25,7 +26,7 @@ function Character() {
 
 
   if (isLoading) {
-    return <div>가져오는중</div>;
+    return <Spinner size={160} title="데이터를 가져오고 있습니다." />;
   }
 
   if (error) {
@@ -42,13 +43,13 @@ function Character() {
   }
 
   return (
-    <>
+    <div className='h-screen flex flex-col justify-center items-center relative'>
       <h2 className='sr-only'>캐릭터 소개</h2>
       <ul className='flex gap-5 animate-fadeInDown absolute top-0'>
         {data.items?.map((item)=> <CharacterList key={item.id} item={item} onClick={handleSelectedCharacter}/>)}
       </ul>
       <CharacterInfo info={selectedCharacterInfo}/>
-    </>
+    </div>
   );
 }
 
