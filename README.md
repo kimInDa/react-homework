@@ -6,40 +6,6 @@
 
 ![시연 이미지](https://github.com/kimInDa/react-homework/assets/105577805/5faec7da-c09b-49c1-9c3a-87fd86d7267e)
 
-## 프로젝트 폴더 구조
-
-📦react-homework
-┣ 📂pocketbase
-┣ 📂public
-┣ 📂src
-┃ ┣ 📂assets
-┃ ┣ 📂components
-┃ ┃ ┣ 📜Heading.jsx
-┃ ┃ ┣ 📜Logo.jsx
-┃ ┃ ┣ 📜Section.jsx
-┃ ┃ ┗ 📜Spinner.jsx
-┃ ┣ 📂hooks
-┃ ┃ ┣ 📜getInfoImageURL.js
-┃ ┃ ┣ 📜useDocumentTitle.js
-┃ ┃ ┗ 📜useFetchData.js
-┃ ┣ 📂layout
-┃ ┃ ┣ 📜FooterBar.jsx
-┃ ┃ ┣ 📜HeaderBar.jsx
-┃ ┃ ┣ 📜Nav.jsx
-┃ ┃ ┗ 📜RootLayout.jsx
-┃ ┣ 📂pages
-┃ ┃ ┣ 📜Character.jsx
-┃ ┃ ┣ 📜CharacterInfo.jsx
-┃ ┃ ┣ 📜CharacterList.jsx
-┃ ┃ ┣ 📜Home.jsx
-┃ ┃ ┗ 📜Summary.jsx
-┃ ┣ 📂styles
-┃ ┃ ┗ 📜tailwind.css
-┃ ┣ 📜App.jsx
-┃ ┣ 📜main.jsx
-┃ ┗ 📜routes.jsx
-┣ 📜index.html
-
 ## 코드 리뷰
 
 ## Layout
