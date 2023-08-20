@@ -1,0 +1,39 @@
+import { useEffect } from "react";
+import { useState } from "react"
+
+
+export default function useFetchData(endpoint) {
+  const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(()=>{
+    const controller = new AbortController();
+
+    setIsLoading(true);
+
+    async function fetchInfo() {
+      try{
+        const response = await fetch(endpoint, {
+          signal: controller.signal,
+        });
+        const responseData = await response.json();
+        setData(responseData);
+      } catch (error) {
+        if(!(error instanceof DOMException)) {
+          setError(error);
+        }
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    fetchInfo();
+
+    return () => {
+      controller.abort();
+    }
+  }, [endpoint])
+
+  return {data, isLoading, error}
+}

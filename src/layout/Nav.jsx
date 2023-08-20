@@ -30,7 +30,7 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            to="/charactor"
+            to="/character"
             className={({ isActive }) =>
               isActive
                 ? `text-elementalBlue underline underline-offset-1`
