@@ -3,7 +3,7 @@ import router from './routes';
 
 function App() {
   return (
-    <div className="App bg-[#03010C] min-w-fit">
+    <div className="App bg-[#03010C] min-w-fit h-fit ">
       <RouterProvider router={router} />
     </div>
   );

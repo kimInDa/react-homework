@@ -14,10 +14,6 @@ export default {
           '0%': { opacity: 0, transform: 'scale(0.5)' },
           '100%': { opacity: 1, transform: 'scale(1)' },
         },
-        scaleUp: {
-          '0%': { opacity: 0, transform: 'translateY(-150%) scale(2)' },
-          '100%': { opacity: 1, transform: 'translateY(0%) scale(1)' },
-        },
         fadeInLeft: {
           '0%': { opacity: 0, transform: 'translateX(-150%)' },
           '100%': { opacity: 1, transform: 'translateX(0%)' },
@@ -26,13 +22,22 @@ export default {
           '0%': { opacity: 0, transform: 'translateX(150%)' },
           '100%': { opacity: 1, transform: 'translateX(0%)' },
         },
+        fadeInDown:{
+          '0%': { opacity: 0, transform: 'translateY(-80%)' },
+          '100%': { opacity: 1, transform: 'translateY(0%)' },
+        },
+        scaleUp: {
+          '0%': { opacity: 0, transform: 'translateY(-150%) scale(2)' },
+          '100%': { opacity: 1, transform: 'translateY(0%) scale(1)' },
+        },
       },
       animation: {
         fadeIn: 'fadeIn 1.2s ease-in-out',
-        scaleUp: 'scaleUp 1.2s ease-in-out',
         fadeInLeftFirst: 'fadeInLeft 1s ease-in-out',
         fadeInLeftSecond: 'fadeInLeft 1.3s ease-in-out',
         fadeInRight: 'fadeInRight 1s ease-in-out',
+        fadeInDown: 'fadeInDown 1s ease-in-out',
+        scaleUp: 'scaleUp 1.2s ease-in-out',
       },
     },
   },
