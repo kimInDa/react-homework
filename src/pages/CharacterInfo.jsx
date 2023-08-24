@@ -3,16 +3,16 @@ import { getInfoImageURL } from '../hooks/getInfoImageURL';
 const firstInfo = {
   character:
     '강인하고 민첩한 불 원소 여성. 자신에게 솔직하지 못한 츤데레이자 불같은 성격의 소유자로, 화가 폭발하면 불꽃이 보라빛으로 변하며 주변을 싸그리 날려버리는 버릇이 있다. 화끈한 성격을 주체하지 못하여 화를 잘 참지 못하는 면이 있는데, 웨이드를 만난 이후에는 화가 나도 그대로 표출하지 않고 진정하는 등 마음을 다스릴 수 있게 된다.',
-  characterImage: 'character_ember_eIYc2fZBG4.webp',
-  collectionId: 'z0pfroe17yqg1fb',
+  characterImage: 'character_ember_s5ZOm4cwiS.webp',
+  collectionId: '8jly8j0bsyvqbpc',
   collectionName: 'Elemental',
-  created: '2023-08-19 18:35:49.252Z',
-  id: '6hlr3x4hf4woisx',
+  created: '2023-08-23 13:52:40.106Z',
+  id: '5zcl6i8zo23awgd',
   name: '엠버 루멘',
   nameEn: 'Ember Lumen',
-  profileImage: 'profile_ember_80AMEcEHXF.webp',
+  profileImage: 'profile_ember_bFR36EocBA.webp',
   slogan: '열정이 이끄는 곳으로!',
-  updated: '2023-08-19 18:35:49.252Z',
+  updated: '2023-08-23 13:52:40.106Z',
 };
 
 function CharacterInfo({ info }) {

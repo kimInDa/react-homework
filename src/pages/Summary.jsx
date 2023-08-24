@@ -1,4 +1,5 @@
 import useDocumentTitle from '@/hooks/useDocumentTitle';
+import summaryPoster from '../assets/poster_05.jpg';
 
 function Summary() {
   useDocumentTitle('줄거리(Summary) | 영화 엘리멘탈(Elemental) 소개 사이트');
@@ -8,14 +9,12 @@ function Summary() {
       <h2 className="sr-only">줄거리</h2>
       <dl className="grid gap-7 grid-rows-[0.5fr_auto_1fr] grid-cols-2 px-10 h-screen">
         <dt className="col-span-1 row-span-1 text-3xl self-end justify-self-start animate-fadeInLeftFirst">
-        <span className='text-elementalBlue'>줄</span><span className='text-elementalRed'>거</span><span className='text-elementalGreen'>리</span>
+          <span className="text-elementalBlue">줄</span>
+          <span className="text-elementalRed">거</span>
+          <span className="text-elementalGreen">리</span>
         </dt>
         <dd className="col-span-1 row-span-3 self-center flex justify-center animate-fadeInRight">
-          <img
-            src="/src/assets/poster_05.jpg"
-            alt="엘리멘탈 포스터"
-            className="w-96"
-          />
+          <img src={summaryPoster} alt="엘리멘탈 포스터" className="w-96" />
         </dd>
         <dd className="col-start-1 col-end-2 row-start-2 row-end-3 font-semibold text-lg block animate-fadeInLeftFirst">
           디즈니와 픽사의 놀라운 상상력! <br />{' '}
