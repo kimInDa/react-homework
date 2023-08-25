@@ -1,0 +1,19 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  /* CSS 중첩 규칙(Nesting Rules) */
+  & * {
+    box-sizing: inherit;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0;
+}
