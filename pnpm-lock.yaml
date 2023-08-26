@@ -8,6 +8,9 @@ dependencies:
   framer-motion:
     specifier: ^10.16.1
     version: 10.16.1(react-dom@18.2.0)(react@18.2.0)
+  pocketbase:
+    specifier: ^0.17.0
+    version: 0.17.0
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1711,6 +1714,10 @@ packages:
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
+
+  /pocketbase@0.17.0:
+    resolution: {integrity: sha512-icsdgI35o/ewjwpJbhkkUAyWpkvPNYXV0iy8XJBMl64yR16YHMIFzfoLwukk86WZ13ojGpupr+/WscXVDiPKDQ==}
+    dev: false
 
   /postcss@8.4.27:
     resolution: {integrity: sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==}

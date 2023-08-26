@@ -1,7 +1,7 @@
-.App {
+.Dialog {
   border: 1px solid black;
   width: 320px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -9,13 +9,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #ecf486;
 }
 
-.pikachuMain {
-  width: 150px;
+.DialogBody {
+  display: flex;
 }
 
-span {
-  font-size: 16px;
-  text-align: center;
+.DialogImage {
+  width: 170px;
+}
+
+.DialogMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
