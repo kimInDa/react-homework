@@ -2,14 +2,17 @@ import './styles/App.css';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useRef, useState } from 'react';
 import Dialog from './Dialog';
+import getRandomData from './utils/getRandomData';
+
+const data = () => getRandomData(1);
 
 function App() {
   const opennerRef = useRef(null);
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
+    console.log(data());
     setOpen(true);
-    console.log(import.meta.env.VITE_PB_URL);
   };
 
   const handleClose = () => {
